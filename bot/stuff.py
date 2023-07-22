@@ -21,6 +21,8 @@ async def start(event):
         f"**Send me the video which you want to compress.**\n**Uptime: {str(datetime.now() - START_TIME).split('.')[0]}**",
         buttons=[
             [Button.inline("HELP", data="help")],
+            InlineKeyboardButton('Developer', url='https://t.me/ARN4V_15'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
+                    InlineKeyboardButton('Instagram', url='https://instagram.com/sincrypt.arn4vz')
         ],
     )
 
